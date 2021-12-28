@@ -1,0 +1,6 @@
+General:
+  specificTpWorldName: world
+  delaySec: 5
+  # xMaxとzMaxは半径で指定する
+  xMax: 10000
+  zMax: 10000

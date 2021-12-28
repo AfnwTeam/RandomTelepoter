@@ -1,0 +1,23 @@
+name: RandomTeleporter
+version: '${project.version}'
+main: net.azisaba.afnw.randomteleporter.RandomTeleporter
+api-version: 1.17
+softdepend: [ Multiverse-Core ]
+authors: [ 5hak3 ]
+description: Use to RandomTeleport at specific world
+
+permissions:
+  rtp.op:
+    description: OP権限判定用
+    default: op
+
+commands:
+  rtpreload:
+    description: rtpの設定をリロードする
+    permission: rtp.op
+    permission-message: このコマンドは管理者のみ利用できます
+  givertp:
+    description: RandomTeleporterを指定したプレイヤーに与える
+    permission: rtp.op
+    permission-message: このコマンドは管理者のみ利用できます
+    usage: /givertp <プレイヤー名>
